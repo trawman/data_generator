@@ -133,7 +133,6 @@ def fake_address():
     return fake.street_address()
 
 def reset_app():
-    # Clear the text entry fields and reset the result label
     entry_lines.delete(0, END)
     entry_path.delete(0, END)
     result_label.config(text="")
